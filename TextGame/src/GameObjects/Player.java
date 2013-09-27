@@ -8,9 +8,26 @@ package GameObjects;
  * To change this template use File | Settings | File Templates.
  */
 public class Player {
-    Position position;
+    private Position position;
+    private String name;
 
     public Player(){
         position = new Position(0,0);
     }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String name(){
+        return name;
+    }
+
+    public Position getPosition(){
+        return position;
+    }
+
+    public void setPosition(Position position){
+        this.position = position;
+    }
+
 }

@@ -40,7 +40,7 @@ public class MainGui implements ActionListener{
 
     private void createUIComponents() {
         MainPanel = new JPanel();
-        outputTextArea = new JTextArea("Test");
+        outputTextArea = new JTextArea();
         inputTextField = new JTextField();
         btnDoIt = new JButton();
         btnDoIt.setActionCommand("doit");
